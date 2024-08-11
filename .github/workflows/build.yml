@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix: 
-        node-version: [16.x, 17.x, 18.x, 20.x]
+        node-version: [12.x, 16.x, 17.x, 18.x, 20.x]
     steps:
       - uses: actions/checkout@v2
       - name: Test Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v1
           node-version: ${{ matrix.node-version }}
       - run: sudo apt-get install build-essential libsodium-dev libboost-system-dev
       - run: npm install
