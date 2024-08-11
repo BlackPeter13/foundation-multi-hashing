@@ -15,9 +15,9 @@
     "shavite",
     "fugue"
   ],
-  "homepage": "https://github.com/BlackPeter13/foundation-multi-hashing",
+  "homepage": "https://github.com/BlackPeter13/foundation-v1-multi-hashing",
   "bugs": {
-    "url": "https://github.com/BlackPeter13/foundation-multi-hashing/issues"
+    "url": "https://github.com/BlackPeter13/foundation-v1-multi-hashing/issues"
   },
   "license": "GPL-2.0",
   "author": {
@@ -33,7 +33,7 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackPeter13/foundation-multi-hashing.git"
+    "url": "https://github.com/BlackPeter13/foundation-v1-multi-hashing.git"
   },
   "dependencies": {
     "bindings": "^1.3.0",
