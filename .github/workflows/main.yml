@@ -31,4 +31,7 @@ jobs:
           node-version: 20
       - run: sudo apt-get install build-essential libsodium-dev libboost-system-dev
       - run: npm install && npm install -g codecov
+      - run: node-gyp clean
+      - run: node-gyp configure
+      - run: node-gyp build
       - run: npm run test && codecov
